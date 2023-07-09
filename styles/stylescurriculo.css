@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:#4F4F4F;
+    color:lightslategrey;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 25%;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #000000;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.titulo__curriculo {
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    padding: 4% 2% 0% 15%;
+    display: flex;
+}
+
+.apresentacao__principal {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao {
+   margin: auto;
+   width: 960px;
+   padding: 4% 8%;
+
+    
+}
+
+.divisao__conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: right;
+}
+
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 300px;  
+}
+
+.apresentacao__1 {
+    padding: 4% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__2 {
+    padding: 4% 0%;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.apresentacao__conteudo__2 {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__3 {
+    padding: 4% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__4 {
+    padding: 4% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__4 {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__img {
+    
+    width: 400px;
+    border: thin solid;
+    padding: 8px;
+    color: #000000;
+    margin: 0px 3px 3px 0;
+    align: right;
+    align: top;
+    border-radius: 30px;
+    background-color: black; 
+}
+
+.rodape{
+    padding: 24px;
+    color:lightslategrey;
+    background-color:#000000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+@media (max-width: 1056px) {
+    .cabecalho {
+        padding: 4%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .titulo__curriculo {
+        justify-content: center;
+    }
+
+    .apresentacao__principal {
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao {
+        width: auto;
+    }
+}
+
